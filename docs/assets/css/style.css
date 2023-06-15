@@ -9,6 +9,9 @@ h1{
 h2{
 	font-size: 30px;
 }
+h3{
+	font-size: 25px;
+}
 
 nav {
 	background-color: black;
@@ -70,42 +73,142 @@ nav {
 	margin-left: calc(5% + 50px);
 }
 
-.about-me, .work {
+.about-me, .work, .contact-me{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 .about-me{
-	height: 200px;
+	height: 140px;
 }
 .work{
-	height: 500px;
+	height: 860px;
+}
+.contact-me{
+	height: 110px;
 }
 
-.about-me-title, .work-title{
+.about-me-title, .work-title, .contact-me-title{
 	border-right: 4px solid black;
 	height: 80%;
 	flex: 1 0 0;
 	display: flex;
 	justify-content: right;
-	align-items: center;
+	align-items: flex-start;
+}
+.work-title{
+	height: 99%;
 }
 
-.about-me-title h1, .work-title h1{
+.about-me-title h1, .work-title h1, .contact-me-title h1{
 	color: black;
 	padding-right: 15px;
+	text-align: right;
+	margin: 0;
 }
 
-.about-me-paragraphs, .work-projects{
+.about-me-paragraphs, .work-projects, .contact-me ul{
 	flex: 4 0 0px;
 	padding-left: 40px;
 	padding-right: 40px;
+}
+.about-me-paragraphs{
 	text-indent: 20px;
 }
 
+.contact-me ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
 
+.contact-me ul li a, .contact-me ul li p{
+	text-decoration: none;
+	border-bottom: 2px solid black;
+	padding-right: 7px;
+	padding-left: 7px;
+	font-size: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	color: black;
+}
+
+.secondary-projects {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 /*Projects*/
-.cheat-sheets{
-	background-image: url('../images/cheat_sheet_background.png');
+.surf{
+	background-image: url('../images/surf.jpeg');
 }
+.surf::after{
+	background-color: rgba(255, 255, 255, 1);
+	width: 100px;
+	height: 100px;
+}
+.led-wall{
+	background-image: url('../images/led_wall_background.jpeg');
+}
+.calculator{
+	background-image: url('../images/calculator_background.jpeg');
+}
+.null-programming-language{
+	background-image: url('../images/programming_language_background.jpeg');
+}
+.john-sheehy-company-website{
+	background-image: url('../images/farm_land_image.webp');
+}
+
+.surf,
+.led-wall,
+.calculator,
+.null-programming-language,
+.john-sheehy-company-website{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 200px;
+	width: calc(50% - 20px);
+	color: white;
+	outline: 4px solid black;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin: 10px;
+}
+
+.surf{
+	height: 400px;
+	width: calc(100% - 20px);
+}
+
+.surf-text, 
+.led-wall-text, 
+.calculator-text, 
+.null-programming-language-text, 
+.john-sheehy-company-website-text{
+	background-color: black;
+	display: inline-block;
+	margin-bottom: 25px;
+	padding: 8px;
+}
+
+.surf-text h3, 
+.led-wall-text h3, 
+.calculator-text h3, 
+.null-programming-language-text h3, 
+.john-sheehy-company-website-text h3{
+	text-align: left;
+	margin: 0;
+}
+
+.surf-text p, 
+.led-wall-text p, 
+.calculator-text p, 
+.null-programming-language-text p,
+.john-sheehy-company-website-text p{
+	margin: 0;
+}
+

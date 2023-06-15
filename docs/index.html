@@ -1,3 +1,13 @@
+<!--
+ToDo:
+	- Replace Divs with other stuff
+	- See if you can remove unecessary class names
+	- @media screen
+	- Hover images
+	- Redo color scheme
+	- Clean up everything
+	- Link Resume
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,9 +24,9 @@
 				<h1>Ryan Sheehy</h1>
 			</div>
 			<div class="links">
-				<a href="#">About Me</a>
-				<a href="#">Work</a>
-				<a href="#">Contact Me</a>
+				<a href="#about-me">About Me</a>
+				<a href="#work">Work</a>
+				<a href="#contact-me">Contact Me</a>
 				<a href="#">Resume</a>
 			</div>
 		</nav>
@@ -28,47 +38,72 @@
 			</div>
 
 			<!---------------About Me--------------->
-			<div class="about-me">
+			<div id="about-me" class="about-me">
 				<div class="about-me-title">
 					<h1>About Me</h1>
 				</div>
 				<div class="about-me-paragraphs">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>I am a Software Engineer based out of Santa Clara. I love coding because solving problems, creating dynamic programs and seeing ideas come to life are what drive me to learn more and more every day. I particularly enjoy GUIs, C programming, and full stack web development.
+					</p>
+					<p>When I'm not coding, I enjoy working on my projects, watching YouTube, running, and playing video games with my friends. I am a driven individual with a lifelong goal to learn as much as possible about all my passions, especially coding!
+					</p>
 				</div>
 			</div>
 
 			<!----------------Work--------------->
-			<div class="work">
+			<div id="work" class="work">
 				<div class="work-title">
 					<h1>Work</h1>
 				</div>
 				<div class="work-projects">
 					<div class="main-project">
-						<div class="cheat-sheets">
-							<h3>Cheat sheets</h3>
-							<p>Markdown, Math, CS</p>
+						<div class="surf">
+							<div class="surf-text">
+								<h3>Surf Report</h3>
+								<p>MERN Stack</p>
+							</div>
 						</div>
 					</div>
 					<div class="secondary-projects">
 						<div class="led-wall">
-							<h3>LED Wall</h3>
-							<p>IOT</p>
+							<div class="led-wall-text">
+								<h3>LED Wall</h3>
+								<p>IOT</p>
+							</div>
 						</div>
 						<div class="calculator">
-							<h3>Calculator</h3>
-							<p>React/JavaScript/Css</p>
+							<div class="calculator-text">
+								<h3>Calculator</h3>
+								<p>React/JavaScript/Css</p>
+							</div>
 						</div>
 						<div class="null-programming-language">
-							<h3>Null Programming Language</h3>
-							<p>C</p>
+							<div class="null-programming-language-text">
+								<h3>Null Programming Language</h3>
+								<p>C</p>
+							</div>
 						</div>
 						<div class="john-sheehy-company-website">
-							<h3>John Sheehy Company Website</h3>
-							<p>React/Css</p>
+							<div class="john-sheehy-company-website-text">
+								<h3>John Sheehy Company Website</h3>
+								<p>React/Css</p>
+							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+
+			<!----------------Contact Me--------------->
+			<div id="contact-me" class="contact-me">
+				<div class="contact-me-title">
+					<h1>Contact Me</h1>
+				</div>
+				<ul>
+					<li><p>408-806-3989</p></li>
+					<li><p>ryansheehy0@gmail.com</p></li>
+					<li><a href="https://github.com/ryansheehy0">Github</a></li>
+					<li><a href="https://www.linkedin.com/in/ryan-sheehy-8513a5249/">Linked In</a></li>
+				</ul>
 			</div>
 
 		</main>
