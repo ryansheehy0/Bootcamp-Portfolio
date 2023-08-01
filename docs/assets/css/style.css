@@ -147,8 +147,8 @@ nav {
 .led-wall{
 	background-image: url('../images/led_wall_background.jpeg');
 }
-.calculator{
-	background-image: url('../images/calculator_background.jpeg');
+.random-flavors{
+	background-image: url('../images/random_flavors_screenshot.png');
 }
 .null-programming-language{
 	background-image: url('../images/programming_language_background.jpeg');
@@ -159,7 +159,7 @@ nav {
 
 .surf,
 .led-wall,
-.calculator,
+.random-flavors,
 .null-programming-language,
 .cheat-sheets{
 	background-size: cover;
@@ -184,7 +184,7 @@ nav {
 /*Adds white shading*/
 .surf::after,
 .led-wall::after,
-.calculator::after,
+.random-flavors::after,
 .null-programming-language::after,
 .cheat-sheets::after{
 	background-color: rgba(255, 255, 255, 0.5);
@@ -199,7 +199,7 @@ nav {
 /* Removes white shading on hover*/
 .surf:hover::after,
 .led-wall:hover::after,
-.calculator:hover::after,
+.random-flavors:hover::after,
 .null-programming-language:hover::after,
 .cheat-sheets:hover::after{
 	background-color: rgba(255, 255, 255, 0);
@@ -207,7 +207,7 @@ nav {
 
 .surf-text, 
 .led-wall-text, 
-.calculator-text, 
+.random-flavors-text, 
 .null-programming-language-text, 
 .cheat-sheets-text{
 	background-color: black;
@@ -219,7 +219,7 @@ nav {
 
 .surf-text h3, 
 .led-wall-text h3, 
-.calculator-text h3, 
+.random-flavors-text h3, 
 .null-programming-language-text h3, 
 .cheat-sheets-text h3{
 	text-align: left;
@@ -228,7 +228,7 @@ nav {
 
 .surf-text p, 
 .led-wall-text p, 
-.calculator-text p, 
+.random-flavors-text p, 
 .null-programming-language-text p,
 .cheat-sheets-text p{
 	margin: 0;
@@ -279,7 +279,7 @@ nav {
 	}
 	.surf-text p, 
 	.led-wall-text p, 
-	.calculator-text p, 
+	.random-flavors-text p, 
 	.null-programming-language-text p,
 	.cheat-sheets-text p{
 		font-size: 12px;
@@ -304,7 +304,7 @@ nav {
 	}
 	.surf-text p, 
 	.led-wall-text p, 
-	.calculator-text p, 
+	.random-flavors-text p, 
 	.null-programming-language-text p,
 	.cheat-sheets-text p{
 		font-size: 10px;
@@ -332,7 +332,7 @@ nav {
 	}
 	.surf-text p, 
 	.led-wall-text p, 
-	.calculator-text p, 
+	.random-flavors-text p, 
 	.null-programming-language-text p,
 	.cheat-sheets-text p{
 		font-size: 6px;
