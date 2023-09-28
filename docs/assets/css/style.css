@@ -144,8 +144,8 @@ nav {
 .surf{
 	background-image: url('../images/surf.jpeg');
 }
-.led-wall{
-	background-image: url('../images/led_wall_background.jpeg');
+.adrift-in-space{
+	background-image: url('../images/adrift_in_space.png');
 }
 .random-flavors{
 	background-image: url('../images/random_flavors_screenshot.png');
@@ -158,7 +158,7 @@ nav {
 }
 
 .surf,
-.led-wall,
+.adrift-in-space,
 .random-flavors,
 .null-programming-language,
 .cheat-sheets{
@@ -183,7 +183,7 @@ nav {
 
 /*Adds white shading*/
 .surf::after,
-.led-wall::after,
+.adrift-in-space::after,
 .random-flavors::after,
 .null-programming-language::after,
 .cheat-sheets::after{
@@ -198,7 +198,7 @@ nav {
 }
 /* Removes white shading on hover*/
 .surf:hover::after,
-.led-wall:hover::after,
+.adrift-in-space:hover::after,
 .random-flavors:hover::after,
 .null-programming-language:hover::after,
 .cheat-sheets:hover::after{
@@ -206,7 +206,7 @@ nav {
 }
 
 .surf-text, 
-.led-wall-text, 
+.adrift-in-space-text, 
 .random-flavors-text, 
 .null-programming-language-text, 
 .cheat-sheets-text{
@@ -218,7 +218,7 @@ nav {
 }
 
 .surf-text h3, 
-.led-wall-text h3, 
+.adrift-in-space-text h3, 
 .random-flavors-text h3, 
 .null-programming-language-text h3, 
 .cheat-sheets-text h3{
@@ -227,7 +227,7 @@ nav {
 }
 
 .surf-text p, 
-.led-wall-text p, 
+.adrift-in-space-text p, 
 .random-flavors-text p, 
 .null-programming-language-text p,
 .cheat-sheets-text p{
@@ -278,7 +278,7 @@ nav {
 		height: 200px;
 	}
 	.surf-text p, 
-	.led-wall-text p, 
+	.adrift-in-space-text p, 
 	.random-flavors-text p, 
 	.null-programming-language-text p,
 	.cheat-sheets-text p{
@@ -303,7 +303,7 @@ nav {
 		font-size: 12px;
 	}
 	.surf-text p, 
-	.led-wall-text p, 
+	.adrift-in-space-text p, 
 	.random-flavors-text p, 
 	.null-programming-language-text p,
 	.cheat-sheets-text p{
@@ -331,7 +331,7 @@ nav {
 		font-size: 8px;
 	}
 	.surf-text p, 
-	.led-wall-text p, 
+	.adrift-in-space-text p, 
 	.random-flavors-text p, 
 	.null-programming-language-text p,
 	.cheat-sheets-text p{
